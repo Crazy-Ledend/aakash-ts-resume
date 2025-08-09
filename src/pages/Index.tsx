@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <header className="relative">
-        <div className="absolute inset-0 -z-10 bg-gradient-primary opacity-20" aria-hidden="true" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/30 to-primary-glow/50 opacity-20" aria-hidden="true" />
         <div className="container mx-auto px-6 py-16">
           <div className="flex flex-col items-center text-center gap-6">
             <div>
@@ -72,22 +72,22 @@ const Index = () => {
           <div className="container mx-auto px-6">
             <h2 id="projects" className="text-2xl font-semibold mb-6">Projects</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-glow">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
                 <h3 className="text-lg font-semibold">Hazelnut — Discord Economy bot</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Economy system for Discord with robust command architecture.</p>
                 <a className="mt-4 inline-flex text-primary hover:underline" href="https://github.com/Crazy-Ledend/Hazelnut" target="_blank" rel="noreferrer">View on GitHub</a>
               </article>
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-glow">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
                 <h3 className="text-lg font-semibold">Muffins — Discord AI chatbot</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Conversational AI assistant for Discord with integrations.</p>
                 <a className="mt-4 inline-flex text-primary hover:underline" href="https://github.com/Crazy-Ledend/MuffinsAI" target="_blank" rel="noreferrer">View on GitHub</a>
               </article>
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-glow">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
                 <h3 className="text-lg font-semibold">HealthBar Component — Game Interface</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Private UI component. Appreciated and endorsed by Oyindoubra Akposeye (The CTO LLC, dev of MewBot).</p>
                 <a className="mt-4 inline-flex text-primary hover:underline" href="https://github.com/Crazy-Ledend/HealthBar" target="_blank" rel="noreferrer">View on GitHub</a>
               </article>
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-glow">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
                 <h3 className="text-lg font-semibold">MewAucs — Discord Auction Bot</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Auction system tailored for Discord communities.</p>
                 <a className="mt-4 inline-flex text-primary hover:underline" href="https://github.com/Crazy-Ledend/MewAucs" target="_blank" rel="noreferrer">View on GitHub</a>
