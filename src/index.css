@@ -50,8 +50,8 @@ All colors MUST be HSL. */
     --sidebar-ring: 217 91% 60%;
 
     /* Beautiful shadows and gradients */
-    --shadow-glow: 0 12px 30px -12px hsl(var(--primary) / 0.45);
-    --shadow-glow-strong: 0 22px 60px -16px hsl(var(--primary-glow) / 0.55);
+    --shadow-glow: 0 12px 30px -12px hsl(var(--primary));
+    --shadow-glow-strong: 0 22px 60px -16px hsl(var(--primary-glow));
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
   }
