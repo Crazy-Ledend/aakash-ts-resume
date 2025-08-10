@@ -92,7 +92,7 @@ const Index = () => {
               <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl hover-glow">
                 <h3 className="text-lg font-semibold">HealthBar Component — Game Interface</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Private UI component. Appreciated and endorsed by Oyindoubra Akposeye (The CTO LLC, dev of MewBot).</p>
-                <a className="mt-4 inline-flex text-primary story-link" href="https://github.com/Crazy-Ledend/HealthBar" target="_blank" rel="noreferrer">View on GitHub</a>
+                <a className="mt-4 inline-flex text-primary story-link" href="https://github.com/Crazy-Ledend/hp_bar_pygame" target="_blank" rel="noreferrer">View on GitHub</a>
               </article>
               <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl hover-glow">
                 <h3 className="text-lg font-semibold">MewAucs — Discord Auction Bot</h3>
@@ -109,7 +109,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <article className="bg-card border rounded-lg p-6">
                 <h3 className="font-semibold">Intern — Jeysun, Chennai</h3>
-                <p className="text-sm text-muted-foreground mt-2">Contributed to backend modules and API integrations.</p>
+                <p className="text-sm text-muted-foreground mt-2">Handled client interactions and basic tasks; no API integrations.</p>
               </article>
               <article className="bg-card border rounded-lg p-6">
                 <h3 className="font-semibold">Intern — SinthanAI Academy</h3>
