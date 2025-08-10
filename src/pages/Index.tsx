@@ -164,7 +164,7 @@ const Index = () => {
             <div className="bg-card border rounded-lg p-6">
               <h3 className="font-semibold">Database Management Systems — NPTEL Swayam</h3>
               <p className="text-sm text-muted-foreground mt-2">Aug 2024</p>
-              <a className="mt-3 inline-flex text-primary hover:underline" href="https://www.linkedin.com/in/aakash-ts-1ab1221bb/" target="_blank" rel="noreferrer">View credential</a>
+              <a className="mt-3 inline-flex text-primary story-link" href="https://www.linkedin.com/in/aakash-ts-1ab1221bb/" target="_blank" rel="noreferrer">View credential</a>
             </div>
           </div>
         </section>
