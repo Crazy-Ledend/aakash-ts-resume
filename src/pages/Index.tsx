@@ -6,11 +6,18 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <header className="relative">
-        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/20 via-transparent to-primary-glow/30 opacity-30" aria-hidden="true" />
+        <div className="absolute inset-0 -z-10" aria-hidden="true">
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary-glow/30 opacity-30 animate-hue" />
+          <div className="pointer-events-none absolute -inset-20">
+            <div className="aurora-spot animate-aurora absolute left-1/4 top-10 w-[40rem] h-[40rem]" />
+            <div className="aurora-spot animate-aurora absolute right-1/3 bottom-10 w-[35rem] h-[35rem]" />
+            <div className="aurora-spot animate-aurora absolute left-1/2 top-1/2 w-[30rem] h-[30rem]" />
+          </div>
+        </div>
         <div className="container mx-auto px-6 py-16">
           <div className="flex flex-col items-center text-center gap-6 animate-fade-in">
             <div>
-              <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-primary">
+              <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-primary glow-text">
                 Aakash TS — AI & Backend Developer Resume
               </h1>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -19,16 +26,16 @@ const Index = () => {
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <a href="mailto:tsaakash04@gmail.com" aria-label="Email Aakash">
-                <Button variant="default" className="transition-transform duration-200 hover:scale-105"><Mail /> Email</Button>
+                <Button variant="default" className="transition-transform duration-200 hover:scale-105 hover-glow"><Mail /> Email</Button>
               </a>
               <a href="tel:+918778545934" aria-label="Call Aakash">
-                <Button variant="outline" className="transition-transform duration-200 hover:scale-105"><Phone /> +91 8778545934</Button>
+                <Button variant="outline" className="transition-transform duration-200 hover:scale-105 hover-glow"><Phone /> +91 8778545934</Button>
               </a>
               <a href="https://github.com/Crazy-Ledend" target="_blank" rel="noreferrer" aria-label="GitHub profile">
-                <Button variant="secondary" className="transition-transform duration-200 hover:scale-105"><Github /> GitHub</Button>
+                <Button variant="secondary" className="transition-transform duration-200 hover:scale-105 hover-glow"><Github /> GitHub</Button>
               </a>
               <a href="https://www.linkedin.com/in/aakash-ts-1ab1221bb/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
-                <Button variant="secondary" className="transition-transform duration-200 hover:scale-105"><Linkedin /> LinkedIn</Button>
+                <Button variant="secondary" className="transition-transform duration-200 hover:scale-105 hover-glow"><Linkedin /> LinkedIn</Button>
               </a>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground"><MapPin className="h-4 w-4" /> Chennai, India — 600061</div>
@@ -72,22 +79,22 @@ const Index = () => {
           <div className="container mx-auto px-6">
             <h2 id="projects" className="text-2xl font-semibold mb-6">Projects</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl hover-glow">
                 <h3 className="text-lg font-semibold">Hazelnut — Discord Economy bot</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Economy system for Discord with robust command architecture.</p>
                 <a className="mt-4 inline-flex text-primary story-link" href="https://github.com/Crazy-Ledend/Hazelnut" target="_blank" rel="noreferrer">View on GitHub</a>
               </article>
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl hover-glow">
                 <h3 className="text-lg font-semibold">Muffins — Discord AI chatbot</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Conversational AI assistant for Discord with integrations.</p>
                 <a className="mt-4 inline-flex text-primary story-link" href="https://github.com/Crazy-Ledend/MuffinsAI" target="_blank" rel="noreferrer">View on GitHub</a>
               </article>
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl hover-glow">
                 <h3 className="text-lg font-semibold">HealthBar Component — Game Interface</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Private UI component. Appreciated and endorsed by Oyindoubra Akposeye (The CTO LLC, dev of MewBot).</p>
                 <a className="mt-4 inline-flex text-primary story-link" href="https://github.com/Crazy-Ledend/HealthBar" target="_blank" rel="noreferrer">View on GitHub</a>
               </article>
-              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl">
+              <article className="group bg-card border rounded-lg p-6 transition-transform duration-200 hover:-translate-y-1 hover:shadow-xl hover-glow">
                 <h3 className="text-lg font-semibold">MewAucs — Discord Auction Bot</h3>
                 <p className="mt-2 text-sm text-muted-foreground">Auction system tailored for Discord communities.</p>
                 <a className="mt-4 inline-flex text-primary story-link" href="https://github.com/Crazy-Ledend/MewAucs" target="_blank" rel="noreferrer">View on GitHub</a>

@@ -106,6 +106,19 @@ const config: Config = {
 					'0%': { transform: 'translateX(0)' },
 					'100%': { transform: 'translateX(100%)' }
 				},
+				'aurora': {
+					'0%': { transform: 'translate(-10%, -10%) scale(1)' },
+					'50%': { transform: 'translate(10%, 10%) scale(1.1)' },
+					'100%': { transform: 'translate(-10%, 0%) scale(1)' }
+				},
+				'glow-pulse': {
+					'0%, 100%': { boxShadow: '0 0 0 0 hsl(var(--primary-glow) / 0.0)' },
+					'50%': { boxShadow: '0 0 40px 5px hsl(var(--primary-glow) / 0.25)' }
+				},
+				'hue-rotate': {
+					'0%': { filter: 'hue-rotate(0deg)' },
+					'100%': { filter: 'hue-rotate(360deg)' }
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -117,7 +130,10 @@ const config: Config = {
 				'slide-in-right': 'slide-in-right 0.3s ease-out',
 				'slide-out-right': 'slide-out-right 0.3s ease-out',
 				'enter': 'fade-in 0.3s ease-out, scale-in 0.2s ease-out',
-				'exit': 'fade-out 0.3s ease-out, scale-out 0.2s ease-out'
+				'exit': 'fade-out 0.3s ease-out, scale-out 0.2s ease-out',
+				'aurora': 'aurora 12s ease-in-out infinite',
+				'glow': 'glow-pulse 3s ease-in-out infinite',
+				'hue': 'hue-rotate 8s linear infinite'
 			}
 		
 		},
