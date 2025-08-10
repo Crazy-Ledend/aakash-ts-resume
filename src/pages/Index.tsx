@@ -18,7 +18,7 @@ const Index = () => {
           <div className="flex flex-col items-center text-center gap-6 animate-fade-in">
             <div>
               <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-primary glow-text">
-                Aakash TS — AI & Backend Developer Resume
+                Aakash TS — AI & Backend Developer
               </h1>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
                 Passionate about Artificial Intelligence, backend development and data management. I enjoy building efficient systems and learning new technologies. Currently pursuing BCA at SRMIST.
@@ -109,7 +109,7 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <article className="bg-card border rounded-lg p-6">
                 <h3 className="font-semibold">Intern — Jeysun, Chennai</h3>
-                <p className="text-sm text-muted-foreground mt-2">Handled client interactions and basic tasks; no API integrations.</p>
+                <p className="text-sm text-muted-foreground mt-2">Handled client interactions and managed tasks.</p>
               </article>
               <article className="bg-card border rounded-lg p-6">
                 <h3 className="font-semibold">Intern — SinthanAI Academy</h3>
